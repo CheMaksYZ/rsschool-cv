@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+  margin-left: 5px;
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,12 +37,16 @@ p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+span {
+  margin-left: -9px;
+}
+
 body {
   background-color: #0e1011;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 720px;
+  max-width: 1440px;
   justify-items: center;
   margin: auto;
 }
@@ -62,8 +67,7 @@ body {
 }
 
 li {
-  list-style: none;
-  padding: 0 0 0 10px;
+  list-style: inside square;
 }
 
 .head {
@@ -73,11 +77,17 @@ li {
 
 .main {
   display: flex;
-  padding-top: 5px;
+  margin-top: 5px;
 }
 
 .main-aside {
-  width: 200px;
+  margin-left: 5px;
+  width: 194px;
+}
+
+.main-info {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .footer__content {
@@ -90,10 +100,109 @@ li {
 
 .skills {
   width: inherit;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #255457;
+}
+
+.skills-list {
+  margin: 5px 10px 10px;
+  line-height: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+.expirience {
+  border-style: solid;
+  border-color: #255457;
+  border-radius: 10px;
+  border-width: 1px;
+  margin-top: 5px;
+}
+
+.expirience-title {
+  margin: 10px 10px 0px 10px;
+}
+
+.expirience-list {
+  margin: 5px 10px 10px 10px;
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px;
+}
+
+.summary {
+  border-style: solid;
+  border-color: #255457;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.summary-title {
+  margin: 10px 10px 0px 10px;
 }
 
 .summary-text {
-  padding-top: 5px;
+  margin: 5px 10px 10px 10px;
+}
+
+.code {
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.code-example {
+  border-radius: 10px;
+  border-width: 3px;
+  border-top-color: rgb(42, 47, 51);
+  border-top-style: solid;
+  border-left-color: rgb(42, 47, 51);
+  border-left-style: solid;
+  background-color: rgb(22, 27, 31);
+  margin: 10px;
+}
+
+.example {
+  margin-top: 5px;
+  border-style: solid;
+  border-color: #255457;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.example-title {
+  margin: 10px 10px 0px 10px;
+}
+
+.english {
+  width: inherit;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #255457;
+  margin-top: 5px;
+}
+
+.english-title {
+  margin: 10px 10px 0px 10px;
+}
+
+.english-value-top {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 10px 0px 10px;
+}
+
+.english-value-buttom {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 10px 10px 10px;
+}
+
+.skills-title {
+  margin: 10px 10px 0px 10px;
 }
