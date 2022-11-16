@@ -90,14 +90,6 @@ li {
   margin-left: 5px;
 }
 
-.footer__content {
-  display: flex;
-}
-
-.footer__contacts {
-  display: flex;
-}
-
 .skills {
   width: inherit;
   border-style: solid;
@@ -206,3 +198,50 @@ li {
 .skills-title {
   margin: 10px 10px 0px 10px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 25%;
+}
+
+.footer-item {
+  list-style: none;
+}
+
+.footer-text {
+  color: #255457;
+}
+
+.tg-link {
+  background-image: url(TG.svg);
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-size: cover;
+}
+
+.gh-link {
+  display: inline-block;
+    width: 50px;
+    height: 100%;
+    background: url(GH.svg) center center no-repeat;
+    background-size: contain;
+}
+
+.rss-link {
+  display: inline-block;
+  width: 140px;
+  height: 100%;
+  background: url(rs_school_js.svg) center center no-repeat;
+  background-size: contain;
+}
+
